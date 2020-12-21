@@ -1,0 +1,45 @@
+.catalog-list-item {
+  position: relative;
+  border: 1px solid #adadad;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  max-width: 240px;
+  width: 100%;
+
+  &__category {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 100px;
+    font-size: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: rgba(1, 122, 106, 0.6);
+  }
+
+  &__image {
+    display: block;
+    max-width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    object-fit: contain;
+  }
+
+  &__title {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 15px;
+  }
+
+  &__price {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}

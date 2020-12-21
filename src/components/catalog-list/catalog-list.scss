@@ -1,0 +1,12 @@
+.catalog-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.page-item.active .page-link {
+  background-color: var(--info);
+  border-color: var(--info);
+}

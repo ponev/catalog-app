@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+header {
+  background-color: var(--gray-dark);
+  box-shadow: 0px 3px 7px -3px rgba(0, 0, 0, 0.75);
+}
+
+.tz,
+.tz ol,
+.tz ul {
+  padding: 15px 0;
+  margin: 0 0 0 30px;
+}

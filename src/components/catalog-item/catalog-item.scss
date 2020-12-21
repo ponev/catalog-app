@@ -1,0 +1,29 @@
+.catalog-item {
+  &__info {
+    display: flex;
+
+    & > div {
+      padding: 15px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  &__category,
+  &__price {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: var(--info);
+
+    strong {
+      color: #000;
+    }
+  }
+  &__description {
+    margin-bottom: 15px;
+  }
+}
